@@ -1,0 +1,16 @@
+//Questão1
+#include <stdio.h>
+//Faça  um programa que leia um valor inteiro decimal X e escreva, na tela, este mesmo valor nas bases hexadecimal e octal.
+int x;
+void conversor(){
+  printf("Digite um número:");
+  scanf("%d", &x);
+  printf("Seu número em hexadecimal é: %x\n", x);
+  printf("Seu número em octal é %o\n", x);
+  
+};
+
+int main(void) {
+  conversor();
+  return 0;
+};
