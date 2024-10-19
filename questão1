@@ -8,9 +8,9 @@ void conversor(){
   printf("Seu número em hexadecimal é: %x\n", x);
   printf("Seu número em octal é %o\n", x);
   
-};
+}
 
 int main(void) {
   conversor();
   return 0;
-};
+}
