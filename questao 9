@@ -1,0 +1,20 @@
+#include <stdio.h>
+
+ 
+void volume(){
+  float altura, comprimento, largura, volume;
+  printf("Digite o valor da altura:\n");
+  scanf("%f", &altura);
+  printf("Digite o valor da largura:\n");
+  scanf("%f", &largura);
+  printf("Digite o valor do comprimento:\n");
+  scanf("%f", &comprimento);
+  volume = altura * comprimento * largura;
+  printf("O volume é igual a: %.2f", volume);
+}
+
+
+int main(void) {
+  volume();
+  return 0;
+}
