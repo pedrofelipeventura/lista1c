@@ -1,0 +1,17 @@
+#include <stdio.h>
+//troca de temperatura entre farenheit e celsius
+ 
+void trocadetemperatura(){
+  float c;
+  printf("DIgite uma temperatura em graus celsius:\n");
+  scanf("%f",&c);
+  printf("Sua temperatura em farenheit é: %.2f\n", (c*9  + 160)/5);
+  
+}
+
+
+int main(void) {
+  trocadetemperatura();
+  return 0;
+}
+
