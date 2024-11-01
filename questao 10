@@ -1,0 +1,19 @@
+#include <stdio.h>
+
+ 
+void dolarreal(){
+  float dolar, real, total;
+  printf("Digite o valor atual do dólar:\n");
+  scanf("%f", &dolar);
+  printf("Digite o valor de reais que você quer converter:\n");
+  scanf("%f", &real);
+  total = real/dolar;
+  printf("O total de dólares é igual a: %.2f", total);
+}
+
+
+int main(void) {
+  dolarreal();
+  return 0;
+}
+ 
