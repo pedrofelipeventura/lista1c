@@ -1,0 +1,18 @@
+#include <stdio.h>
+#include <stdlib.h>
+// Escrever um programa que receba um valor inteiro do usu´ario e apresente o seu valor absoluto (m´odulo). N˜ao utilize estrutura de decis˜ao if. 
+
+ 
+void valorabsoluto(){
+int numero, valorabsoluto;
+  printf("Digite um número inteiro:\n");
+  scanf("%d", &numero);
+  valorabsoluto = abs(numero);
+  printf("O valor absoluto de %d é: %d", numero, valorabsoluto);
+}
+
+
+int main(void) {
+  valorabsoluto();
+  return 0;
+}
