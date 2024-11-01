@@ -1,0 +1,22 @@
+#include <stdio.h>
+
+ 
+void empresa(){
+  int dias;
+  printf("Digite a quantidade de dias trabalhados:(1 a 30)\n");
+  scanf("%d",&dias);
+  if (dias > 0 && dias <= 10){
+  printf("Seu salário é igual a: %.2f", (dias*50.25) * 0.90);
+  } else if ( dias > 10 && dias <= 20){
+printf("Seu salário é igual a: %.2f", ((dias*50.25) * 1.2) * 0.90);
+  }else if(dias > 20 && dias <= 30){
+  printf("Seu salário é: %.2f", ((dias*50.25) * 1.30) * 0.90);
+  } else
+    printf("Número de dias inválido");
+}
+
+
+int main(void) {
+  empresa();
+  return 0;
+}
