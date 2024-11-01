@@ -1,0 +1,22 @@
+#include <stdio.h>
+
+int main() {
+    int x, n, produto;
+
+    // Solicita ao usuário que insira os valores de x e n
+    printf("Digite o valor de x: ");
+    scanf("%d", &x);
+    printf("Digite o valor de n: ");
+    scanf("%d", &n);
+
+    // Calcula 2 elevado a n usando deslocamento à esquerda (operador binário)
+    int doisElevadoN = 1 << n; // 2^n
+
+    // Calcula o produto
+    produto = x * doisElevadoN;
+
+    // Exibe o resultado
+    printf("O produto de %d por 2 elevado a %d é: %d\n", x, n, produto);
+
+    return 0;
+}
