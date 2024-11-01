@@ -1,0 +1,19 @@
+#include <stdio.h>
+//
+
+
+ 
+void sucessorantecessor(){
+  int valor;
+  printf("Digite o valor de um número inteiro:\n");
+  scanf("%d", &valor);
+  printf("O sucessor do número é: %d\n", valor + 1);
+  printf("O antecessor do número é: %d\n", valor - 1);
+ 
+}
+
+
+int main(void) {
+  sucessorantecessor();
+  return 0;
+}
