@@ -1,0 +1,23 @@
+#include <stdio.h>
+// Desenvolva um programa que calcule o salario liquido de um professor. Para elaborar o programa, ´e necess´ario possuir alguns dados, tais como o valor da hora aula, n´umero de horas trabalhadas no mˆes e percentual de desconto do INSS. Em primeiro lugar, deve-se estabelecer o seu sal´ario bruto para fazer o desconto e ter o valor do salario liquido. Obs.: o programa deve informar o salario bruto e salario liquido do professor. 
+
+ 
+void salarioliquido(){
+  float valorhora, desconto;
+  int horas;
+  printf("Digite o desconto do INSS:\n");
+  scanf("%f", &desconto);
+  printf("Digite o valor da sua hora de trabalho:\n");
+  scanf("%f", &valorhora);
+  printf("Digite o número de horas que você trabalhou no mês:\n");
+  scanf("%d", &horas);
+  printf("O salário bruto é igual a: %.2f\n", horas * valorhora);
+  printf("O salário líquido é igual a: %.2f\n", (horas * valorhora) * (1 - desconto/100));
+  
+}
+
+
+int main(void) {
+  salarioliquido();
+  return 0;
+}
