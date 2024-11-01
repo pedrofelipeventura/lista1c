@@ -1,0 +1,61 @@
+#include <stdio.h>
+
+void desenharRetangulo() {
+    printf("Retângulo:\n");
+    printf("********\n");
+    printf("*      *\n");
+    printf("*      *\n");
+    printf("*      *\n");
+    printf("*      *\n");
+    printf("*      *\n");
+    printf("*      *\n");
+    printf("*      *\n");
+    printf("********\n\n");
+}
+
+void desenharElipse() {
+    printf("Elipse:\n");
+    printf("   ***  \n");
+    printf("  *   * \n");
+    printf(" *     * \n");
+    printf(" *     * \n");
+    printf(" *     * \n");
+    printf(" *     * \n");
+    printf("  *   * \n");
+    printf("   ***  \n\n");
+}
+
+void desenharSeta() {
+    printf("Seta:\n");
+    printf("   *\n");
+    printf("  ***\n");
+    printf(" *****\n");
+    printf("   *\n");
+    printf("   *\n");
+    printf("   *\n");
+    printf("   *\n");
+    printf("   *\n");
+    printf("   *\n\n");
+}
+
+void desenharLosango() {
+    printf("Losango:\n");
+    printf("    *  \n");
+    printf("   * * \n");
+    printf("  *   *  \n");
+    printf(" *     * \n");
+    printf("*       *\n");
+    printf(" *     *\n");
+    printf("  *   *  \n");
+    printf("   * *  \n");
+    printf("    *   \n\n");
+}
+
+int main() {
+    desenharRetangulo();
+    desenharElipse();
+    desenharSeta();
+    desenharLosango();
+
+    return 0;
+}
